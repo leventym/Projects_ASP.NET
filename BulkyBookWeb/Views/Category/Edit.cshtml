@@ -1,0 +1,50 @@
+﻿<!--This view uses model controller and its properties-->
+@model Category
+
+
+<!--a form that Edits-->
+<form method="post" asp-action="Edit">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Edit Category</h2>
+            <hr />
+        </div>
+
+        <!--Tag helper - validation summary appears at the top of the view-->
+        <div asp-validation-summary="All"></div>
+
+        <div class="mb-3">
+            <!--uses property from model Category-->
+            <label asp-for="Name"></label>
+            <!--posts an object of class category -->
+            <input asp-for="Name" class="form-control" />
+                        
+            <!--Tag helper for validation-->
+            <span asp-validation-for="Name" class="text-danger"></span>
+
+
+        </div>
+        <div class="mb-3">
+            <!--uses property from model Category-->
+            <label asp-for="DisplayOrder"></label>
+            <!--posts an object of class category -->
+            <input asp-for="DisplayOrder" class="form-control" />
+
+            <!--Tag helper for validation-->
+            <span asp-validation-for="DisplayOrder" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width:150px">Update</button>
+        <!--like a back button link-->
+        <a asp-controller="Category" asp-action="Index" class="btn btn-secondary" style="width:150px">
+            Back to List
+        </a>
+    </div>
+</form>
+
+<!--Validation on client side with the partial view, _ValidationScriptsPartial-->
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
