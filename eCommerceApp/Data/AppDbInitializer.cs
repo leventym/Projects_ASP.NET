@@ -134,9 +134,9 @@ namespace eCommerceApp.Data
                 //Movies
                 if (!context.Movies.Any())
                 {
-                    context.Movies.AddRange(new List<NewMovieVM>()
+                    context.Movies.AddRange(new List<Movie>()
                     {
-                        new NewMovieVM()
+                        new Movie()
                         {
                             Name = "The Tinder Swindler",
                             Description = "This is the The Tinder Swindler movie description",
@@ -148,7 +148,7 @@ namespace eCommerceApp.Data
                             ProducerId = 3,
                             MovieCategory = MovieCategory.Documentary
                         },
-                        new NewMovieVM()
+                        new Movie()
                         {
                             Name = "The Dark Knight",
                             Description = "This is The Dark Knight description",
@@ -160,7 +160,7 @@ namespace eCommerceApp.Data
                             ProducerId = 1,
                             MovieCategory = MovieCategory.Action
                         },
-                        new NewMovieVM()
+                        new Movie()
                         {
                             Name = "Psycho",
                             Description = "This is the Psycho movie description",
@@ -172,7 +172,7 @@ namespace eCommerceApp.Data
                             ProducerId = 4,
                             MovieCategory = MovieCategory.Horror
                         },
-                        new NewMovieVM()
+                        new Movie()
                         {
                             Name = "Jackass: The Movie",
                             Description = "This is the Jackass: The Movie movie description",
@@ -184,7 +184,7 @@ namespace eCommerceApp.Data
                             ProducerId = 2,
                             MovieCategory = MovieCategory.Documentary
                         },
-                        new NewMovieVM()
+                        new Movie()
                         {
                             Name = "The Lion King",
                             Description = "This is The Lion King movie description",
@@ -196,7 +196,7 @@ namespace eCommerceApp.Data
                             ProducerId = 3,
                             MovieCategory = MovieCategory.Cartoon
                         },
-                        new NewMovieVM()
+                        new Movie()
                         {
                             Name = "Nightmare Alley",
                             Description = "This is the Nightmare Alley movie description",
