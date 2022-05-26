@@ -142,7 +142,7 @@ namespace eTicket.Data
                         {
                             Name = "Life",
                             Description = "This is the Life movie description",
-                            Price = 39.50,
+                            Price = 39,
                             ImageURL = "http://dotnethow.net/images/movies/movie-3.jpeg",
                             StartDate = DateTime.Now.AddDays(-10),
                             EndDate = DateTime.Now.AddDays(10),
@@ -154,7 +154,7 @@ namespace eTicket.Data
                         {
                             Name = "The Shawshank Redemption",
                             Description = "This is the Shawshank Redemption description",
-                            Price = 29.50,
+                            Price = 29,
                             ImageURL = "http://dotnethow.net/images/movies/movie-1.jpeg",
                             StartDate = DateTime.Now,
                             EndDate = DateTime.Now.AddDays(3),
@@ -166,7 +166,7 @@ namespace eTicket.Data
                         {
                             Name = "Ghost",
                             Description = "This is the Ghost movie description",
-                            Price = 39.50,
+                            Price = 39,
                             ImageURL = "http://dotnethow.net/images/movies/movie-4.jpeg",
                             StartDate = DateTime.Now,
                             EndDate = DateTime.Now.AddDays(7),
@@ -178,7 +178,7 @@ namespace eTicket.Data
                         {
                             Name = "Race",
                             Description = "This is the Race movie description",
-                            Price = 39.50,
+                            Price = 39,
                             ImageURL = "http://dotnethow.net/images/movies/movie-6.jpeg",
                             StartDate = DateTime.Now.AddDays(-10),
                             EndDate = DateTime.Now.AddDays(-5),
@@ -190,7 +190,7 @@ namespace eTicket.Data
                         {
                             Name = "Scoob",
                             Description = "This is the Scoob movie description",
-                            Price = 39.50,
+                            Price = 39,
                             ImageURL = "http://dotnethow.net/images/movies/movie-7.jpeg",
                             StartDate = DateTime.Now.AddDays(-10),
                             EndDate = DateTime.Now.AddDays(-2),
@@ -202,7 +202,7 @@ namespace eTicket.Data
                         {
                             Name = "Cold Soles",
                             Description = "This is the Cold Soles movie description",
-                            Price = 39.50,
+                            Price = 39,
                             ImageURL = "http://dotnethow.net/images/movies/movie-8.jpeg",
                             StartDate = DateTime.Now.AddDays(3),
                             EndDate = DateTime.Now.AddDays(20),

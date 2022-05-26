@@ -55,16 +55,64 @@
             </tfoot>
         </table>
 
-        <div class="text-center">
+        <div class="text-right">
             <div class="btn-group">
-                <a class="btn btn-outline-primary" asp-controller="Orders" asp-action="CompleteOrder">
+                @*<a class="btn btn-outline-primary" asp-controller="Orders" asp-action="CompleteOrder">
                     Complete order
-                </a>
+                </a>*@
+                <div id="paypal-btn"></div>
+                <span style="padding:5px"></span>
                 <a class="btn btn-outline-success" asp-controller="Movies" asp-action="Index">
                     Add more items
                 </a>
             </div>
         </div>
-
     </div>
 </div>
+
+@section Scripts{
+    <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+
+    <script>
+        
+        let _total = @Html.Raw(Model.ShoppingCartTotal);
+
+        paypal.Button.render({
+            //config envrionment
+            env: 'sandbox',
+            client: {
+                sandbox: 'AYZMQmcbwxSYKKgDAj5NeSR0_LaFYjLEuEuC04SrbQ4SQsdBk-EjLyE6G9SGe3gCpf7emSmS46YR7CSb'
+            },
+            
+            //customiz button
+            locale: 'sv_SE',
+            style: {
+                size:'small',
+                color:'gold',
+                shape:'pill'
+            },
+            commit: true,
+
+            //set up payment
+            payment: function(data, actions){
+                return actions.payment.create({
+                    transactions: [{
+                        amount: {
+                            total: _total,
+                            currency: 'SEK'
+                        }
+                    }]
+                });
+            },
+
+            //execute the payment
+            onAuthorize: function(data, actions){
+                return actions.payment.execute().then(function(){
+                    var url = '@Url.Action("CompleteOrder", "Orders", new {})';
+                    window.location.href = url;
+                });
+            }
+
+        }, '#paypal-btn');
+    </script>
+}

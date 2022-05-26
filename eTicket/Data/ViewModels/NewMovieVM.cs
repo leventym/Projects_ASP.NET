@@ -21,7 +21,7 @@ namespace eTicket.Models
 
         [Display(Name = "Price in SEK")]
         [Required(ErrorMessage = "Price is required")]
-        public double Price { get; set; }
+        public int Price { get; set; }
 
         [Display(Name = "Movie poster URL")]
         [Required(ErrorMessage = "Movie poster URL is required")]
