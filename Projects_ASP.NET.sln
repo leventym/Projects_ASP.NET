@@ -3,11 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BulkyBookWeb", "BulkyBookWeb\BulkyBookWeb.csproj", "{E4E0330A-2586-48E8-80E2-27016F8C4A36}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eCommerceApp", "eCommerceApp\eCommerceApp.csproj", "{EB981FEE-7F8F-4715-B058-C82AAAF22463}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eTicket", "eTicket\eTicket.csproj", "{CA561B39-0D75-4A8D-88BF-95D8E89F2D8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eTicket", "eTicket\eTicket.csproj", "{CA561B39-0D75-4A8D-88BF-95D8E89F2D8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,14 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E4E0330A-2586-48E8-80E2-27016F8C4A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E4E0330A-2586-48E8-80E2-27016F8C4A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E4E0330A-2586-48E8-80E2-27016F8C4A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E4E0330A-2586-48E8-80E2-27016F8C4A36}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EB981FEE-7F8F-4715-B058-C82AAAF22463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EB981FEE-7F8F-4715-B058-C82AAAF22463}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EB981FEE-7F8F-4715-B058-C82AAAF22463}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EB981FEE-7F8F-4715-B058-C82AAAF22463}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CA561B39-0D75-4A8D-88BF-95D8E89F2D8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CA561B39-0D75-4A8D-88BF-95D8E89F2D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA561B39-0D75-4A8D-88BF-95D8E89F2D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
