@@ -11,7 +11,7 @@
     "AbbyWeb": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:44971",
+      "applicationUrl": "http://localhost:64303",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
