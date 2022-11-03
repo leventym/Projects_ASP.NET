@@ -37,7 +37,7 @@ namespace AbbyWeb.Pages.Categories
             {
                 await _db.Categories.AddAsync(Category);
                 await _db.SaveChangesAsync();
-
+                TempData["success"] = "Category created successfully";
                 return RedirectToPage("Index");
             }
             return Page();
