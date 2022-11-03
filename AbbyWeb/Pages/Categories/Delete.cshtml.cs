@@ -11,35 +11,36 @@ namespace AbbyWeb.Pages.Categories
 {
     [BindProperties]
 
-    public class CreateModel : PageModel
+    public class DeleteModel : PageModel
     {
         private readonly ApplicationDbContext _db;
 
         public Category Category { get; set; }
 
-        public CreateModel(ApplicationDbContext db)
+        public DeleteModel(ApplicationDbContext db)
         {
             _db = db;
         }
 
-        public void OnGet()
+        public void OnGet(int? id)
         {
+            Category = _db.Categories.Find(id);
         }
 
         public async Task<IActionResult> OnPost()
         {
-            if(Category.Name == Category.DisplayOrder.ToString())
-            {
-                ModelState.AddModelError("Category.Name", "The Display Order cannot exactly match the Name");
-            }
 
-            if (ModelState.IsValid)
+
+            var categoryFromDb = _db.Categories.Find(Category.Id);
+
+            if (categoryFromDb != null)
             {
-                await _db.Categories.AddAsync(Category);
+                _db.Categories.Remove(categoryFromDb);
                 await _db.SaveChangesAsync();
-
                 return RedirectToPage("Index");
             }
+
+
             return Page();
         }
     }
