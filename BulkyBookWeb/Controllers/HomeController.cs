@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using BulkyBookWeb.Models;
+using BulkyBook.Models;
 
 namespace BulkyBookWeb.Controllers;
 

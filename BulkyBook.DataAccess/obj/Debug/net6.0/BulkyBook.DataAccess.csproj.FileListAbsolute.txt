@@ -1,0 +1,17 @@
+/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/obj/Debug/net6.0/BulkyBook.DataAccess.csproj.AssemblyReference.cache
+/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/obj/Debug/net6.0/BulkyBook.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/obj/Debug/net6.0/BulkyBook.DataAccess.AssemblyInfoInputs.cache
+/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/obj/Debug/net6.0/BulkyBook.DataAccess.AssemblyInfo.cs
+/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/obj/Debug/net6.0/BulkyBook.DataAccess.csproj.CoreCompileInputs.cache
+/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/bin/Debug/net6.0/BulkyBook.DataAccess.deps.json
+/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/bin/Debug/net6.0/BulkyBook.DataAccess.dll
+/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/bin/Debug/net6.0/BulkyBook.DataAccess.pdb
+/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/bin/Debug/net6.0/BulkyBook.Models.dll
+/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/bin/Debug/net6.0/BulkyBook.Models.pdb
+/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/obj/Debug/net6.0/BulkyBook.DataAccess.csproj.CopyComplete
+/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/obj/Debug/net6.0/BulkyBook.DataAccess.dll
+/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/obj/Debug/net6.0/refint/BulkyBook.DataAccess.dll
+/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/obj/Debug/net6.0/BulkyBook.DataAccess.pdb
+/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/obj/Debug/net6.0/ref/BulkyBook.DataAccess.dll
+/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/bin/Debug/net6.0/BulkyBook.DataAccess.runtimeconfig.json
+/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/obj/Debug/net6.0/BulkyBook.DataAccess.genruntimeconfig.cache
