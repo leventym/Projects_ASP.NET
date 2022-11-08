@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  bulkybookweb:
+    image: ${DOCKER_REGISTRY-}bulkybookweb
+    build:
+      context: .
+      dockerfile: BulkyBookWeb/Dockerfile
