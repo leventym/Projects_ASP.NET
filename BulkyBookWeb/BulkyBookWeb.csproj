@@ -18,8 +18,19 @@
     <None Remove="Toolbelt.EntityFrameworkCore.AnnotationBasedModelBuilder" />
     <None Remove="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
     <None Remove="Swashbuckle.AspNetCore" />
-    <None Remove="Views\Category\" />
     <None Remove="Microsoft.EntityFrameworkCore.Sqlite" />
+    <None Remove="Areas\" />
+    <None Remove="Areas\Admin\" />
+    <None Remove="Areas\Customer\" />
+    <None Remove="Areas\Identity\" />
+    <None Remove="Areas\Identity\Pages\" />
+    <None Remove="Areas\Identity\Pages\Account\" />
+    <None Remove="Areas\Admin\Controllers\" />
+    <None Remove="Areas\Admin\Views\" />
+    <None Remove="Areas\Customer\Controllers\" />
+    <None Remove="Areas\Customer\Views\" />
+    <None Remove="Areas\Admin\Views\Category\" />
+    <None Remove="Areas\Customer\Views\Home\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.10" />
@@ -35,9 +46,22 @@
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.10" />
     <PackageReference Include="Toolbelt.EntityFrameworkCore.AnnotationBasedModelBuilder" Version="5.0.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.10" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Views\Category\" />
+    <Folder Include="Areas\" />
+    <Folder Include="Areas\Admin\" />
+    <Folder Include="Areas\Customer\" />
+    <Folder Include="Areas\Identity\" />
+    <Folder Include="Areas\Identity\Pages\" />
+    <Folder Include="Areas\Identity\Pages\Account\" />
+    <Folder Include="Areas\Admin\Controllers\" />
+    <Folder Include="Areas\Admin\Views\" />
+    <Folder Include="Areas\Customer\Controllers\" />
+    <Folder Include="Areas\Customer\Views\" />
+    <Folder Include="Areas\Admin\Views\Category\" />
+    <Folder Include="Areas\Customer\Views\Home\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BulkyBook.DataAccess\BulkyBook.DataAccess.csproj">

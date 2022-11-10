@@ -14,9 +14,13 @@
     <None Remove="Microsoft.EntityFrameworkCore.Relational" />
     <None Remove="Microsoft.EntityFrameworkCore.Design" />
     <None Remove="Microsoft.Extensions.DependencyInjection" />
+    <None Remove="Repository\" />
+    <None Remove="Repository\IRepository\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
+    <Folder Include="Repository\" />
+    <Folder Include="Repository\IRepository\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BulkyBook.Models\BulkyBook.Models.csproj" />
