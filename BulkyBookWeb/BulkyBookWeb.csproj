@@ -62,10 +62,14 @@
     <Folder Include="Areas\Customer\Views\" />
     <Folder Include="Areas\Admin\Views\Category\" />
     <Folder Include="Areas\Customer\Views\Home\" />
+    <Folder Include="wwwroot\images\Products\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BulkyBook.DataAccess\BulkyBook.DataAccess.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\images\Products\" />
   </ItemGroup>
 </Project>
