@@ -56,10 +56,10 @@ namespace BulkyBookWeb.Controllers
             }
             else
             {
+                productVM.Product = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == id);
+                return View(productVM);
                 //update product
             }
-
-            return View(productVM);
         }
 
         //POST
@@ -147,7 +147,7 @@ namespace BulkyBookWeb.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            var productList = _unitOfWork.Product.GetAll();
+            var productList = _unitOfWork.Product.GetAll(includeProperties: "Category,CoverType");
             return Json(new { data = productList });
         }
         #endregion
