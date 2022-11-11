@@ -5,6 +5,7 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AbbyWeb
 build_property.RootNamespace = AbbyWeb
@@ -14,6 +15,22 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = /Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/AbbyWeb
 build_property._RazorSourceGeneratorDebug = 
+
+[/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/AbbyWeb/Pages/Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcmllcy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/AbbyWeb/Pages/Categories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcmllcy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/AbbyWeb/Pages/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcmllcy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/AbbyWeb/Pages/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcmllcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/AbbyWeb/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
@@ -25,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/AbbyWeb/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/AbbyWeb/Pages/Shared/_Notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19Ob3RpZmljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/AbbyWeb/Pages/Shared/_ValidationScriptsPartial.cshtml]
