@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/BulkyBook.DataAccess.csproj": {}
+    "/Users/leventyildirim/RiderProjects/Projects_ASP.NET/BulkyBook.DataAccess/BulkyBook.DataAccess.csproj": {}
   },
   "projects": {
-    "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/BulkyBook.DataAccess.csproj": {
+    "/Users/leventyildirim/RiderProjects/Projects_ASP.NET/BulkyBook.DataAccess/BulkyBook.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/BulkyBook.DataAccess.csproj",
+        "projectUniqueName": "/Users/leventyildirim/RiderProjects/Projects_ASP.NET/BulkyBook.DataAccess/BulkyBook.DataAccess.csproj",
         "projectName": "BulkyBook.DataAccess",
-        "projectPath": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/BulkyBook.DataAccess.csproj",
+        "projectPath": "/Users/leventyildirim/RiderProjects/Projects_ASP.NET/BulkyBook.DataAccess/BulkyBook.DataAccess.csproj",
         "packagesPath": "/Users/leventyildirim/.nuget/packages/",
-        "outputPath": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/obj/",
+        "outputPath": "/Users/leventyildirim/RiderProjects/Projects_ASP.NET/BulkyBook.DataAccess/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/leventyildirim/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Models/BulkyBook.Models.csproj": {
-                "projectPath": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Models/BulkyBook.Models.csproj"
+              "/Users/leventyildirim/RiderProjects/Projects_ASP.NET/BulkyBook.Models/BulkyBook.Models.csproj": {
+                "projectPath": "/Users/leventyildirim/RiderProjects/Projects_ASP.NET/BulkyBook.Models/BulkyBook.Models.csproj"
               }
             }
           }
@@ -42,6 +42,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.10, )"
@@ -83,14 +87,14 @@
         }
       }
     },
-    "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Models/BulkyBook.Models.csproj": {
+    "/Users/leventyildirim/RiderProjects/Projects_ASP.NET/BulkyBook.Models/BulkyBook.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Models/BulkyBook.Models.csproj",
+        "projectUniqueName": "/Users/leventyildirim/RiderProjects/Projects_ASP.NET/BulkyBook.Models/BulkyBook.Models.csproj",
         "projectName": "BulkyBook.Models",
-        "projectPath": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Models/BulkyBook.Models.csproj",
+        "projectPath": "/Users/leventyildirim/RiderProjects/Projects_ASP.NET/BulkyBook.Models/BulkyBook.Models.csproj",
         "packagesPath": "/Users/leventyildirim/.nuget/packages/",
-        "outputPath": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Models/obj/",
+        "outputPath": "/Users/leventyildirim/RiderProjects/Projects_ASP.NET/BulkyBook.Models/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/leventyildirim/.nuget/NuGet/NuGet.Config"
@@ -120,6 +124,10 @@
             "Microsoft.AspNetCore.Mvc.ViewFeatures": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[6.0.10, )"
             }
           },
           "imports": [

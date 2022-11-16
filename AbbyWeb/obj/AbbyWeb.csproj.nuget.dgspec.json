@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/AbbyWeb/AbbyWeb.csproj": {}
+    "/Users/leventyildirim/RiderProjects/Projects_ASP.NET/AbbyWeb/AbbyWeb.csproj": {}
   },
   "projects": {
-    "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/AbbyWeb/AbbyWeb.csproj": {
+    "/Users/leventyildirim/RiderProjects/Projects_ASP.NET/AbbyWeb/AbbyWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/AbbyWeb/AbbyWeb.csproj",
+        "projectUniqueName": "/Users/leventyildirim/RiderProjects/Projects_ASP.NET/AbbyWeb/AbbyWeb.csproj",
         "projectName": "AbbyWeb",
-        "projectPath": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/AbbyWeb/AbbyWeb.csproj",
+        "projectPath": "/Users/leventyildirim/RiderProjects/Projects_ASP.NET/AbbyWeb/AbbyWeb.csproj",
         "packagesPath": "/Users/leventyildirim/.nuget/packages/",
-        "outputPath": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/AbbyWeb/obj/",
+        "outputPath": "/Users/leventyildirim/RiderProjects/Projects_ASP.NET/AbbyWeb/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/leventyildirim/.nuget/NuGet/NuGet.Config"
