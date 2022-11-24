@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PpfY9RJRCaEIgR70QpwGKJB5FUEFFXdJpNFYDojFIcaJloCzXwrOVGiOKvLr0L9YaXQm+fB06W7CcA4ZMuR8gQ==",
+  "dgSpecHash": "iiDxzs0Cr8NJqNP76WIm9zTM/DN8lyuv5IvgDb6h8XkVXdDLyVKrALupatuOxtmIj0Dzqr4t0QSIkWGZCPVm9A==",
   "success": true,
-  "projectFilePath": "/Users/leventyildirim/RiderProjects/Projects_ASP.NET/BulkyBook.Utility/BulkyBook.Utility.csproj",
+  "projectFilePath": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Utility/BulkyBook.Utility.csproj",
   "expectedPackageFiles": [
     "/Users/leventyildirim/.nuget/packages/microsoft.aspnetcore.cryptography.internal/6.0.10/microsoft.aspnetcore.cryptography.internal.6.0.10.nupkg.sha512",
     "/Users/leventyildirim/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/6.0.10/microsoft.aspnetcore.cryptography.keyderivation.6.0.10.nupkg.sha512",
@@ -21,5 +21,12 @@
     "/Users/leventyildirim/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "/Users/leventyildirim/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Utility/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

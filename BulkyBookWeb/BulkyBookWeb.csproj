@@ -33,6 +33,8 @@
     <None Remove="Areas\Customer\Views\Home\" />
     <None Remove="Microsoft.AspNetCore.Identity.UI" />
     <None Remove="Areas\Customer\Views\Cart\" />
+    <None Remove="Stripe.net" />
+    <None Remove="Areas\Admin\Views\Order\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.10" />
@@ -51,6 +53,7 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.10" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.10" />
+    <PackageReference Include="Stripe.net" Version="41.1.0" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Areas\" />
@@ -68,6 +71,7 @@
     <Folder Include="wwwroot\images\Products\" />
     <Folder Include="Areas\Customer\Controllers\CartController.cs" />
     <Folder Include="Areas\Customer\Views\Cart\" />
+    <Folder Include="Areas\Admin\Views\Order\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BulkyBook.DataAccess\BulkyBook.DataAccess.csproj">

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RsOrP3WlZrY7aSzhsfE8y3YOdYo4zIPrOU80roLwKmmbrsHea8w81Bh7VFlUVposN/p3bRcbdfwblzVXH+dCsA==",
+  "dgSpecHash": "hw4h7TsRZ8Ze7eBo4JoiWmBo+59o5aRz4lUutSNlZyAZpb2JEQ87fYvCl5rN6pYaXFNJDiobeS8J6nnjPN8dmw==",
   "success": true,
-  "projectFilePath": "/Users/leventyildirim/RiderProjects/Projects_ASP.NET/BulkyBook.DataAccess/BulkyBook.DataAccess.csproj",
+  "projectFilePath": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/BulkyBook.DataAccess.csproj",
   "expectedPackageFiles": [
     "/Users/leventyildirim/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/leventyildirim/.nuget/packages/microsoft.aspnetcore.antiforgery/2.2.0/microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
@@ -164,5 +164,12 @@
     "/Users/leventyildirim/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/Users/leventyildirim/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

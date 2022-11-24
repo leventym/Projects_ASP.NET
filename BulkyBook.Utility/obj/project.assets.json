@@ -787,11 +787,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/leventyildirim/RiderProjects/Projects_ASP.NET/BulkyBook.Utility/BulkyBook.Utility.csproj",
+      "projectUniqueName": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Utility/BulkyBook.Utility.csproj",
       "projectName": "BulkyBook.Utility",
-      "projectPath": "/Users/leventyildirim/RiderProjects/Projects_ASP.NET/BulkyBook.Utility/BulkyBook.Utility.csproj",
+      "projectPath": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Utility/BulkyBook.Utility.csproj",
       "packagesPath": "/Users/leventyildirim/.nuget/packages/",
-      "outputPath": "/Users/leventyildirim/RiderProjects/Projects_ASP.NET/BulkyBook.Utility/obj/",
+      "outputPath": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Utility/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/leventyildirim/.nuget/NuGet/NuGet.Config"
@@ -842,5 +842,13 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Utility/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

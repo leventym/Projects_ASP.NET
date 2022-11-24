@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/leventyildirim/RiderProjects/Projects_ASP.NET/BulkyBook.Models/BulkyBook.Models.csproj": {}
+    "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Models/BulkyBook.Models.csproj": {}
   },
   "projects": {
-    "/Users/leventyildirim/RiderProjects/Projects_ASP.NET/BulkyBook.Models/BulkyBook.Models.csproj": {
+    "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Models/BulkyBook.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/leventyildirim/RiderProjects/Projects_ASP.NET/BulkyBook.Models/BulkyBook.Models.csproj",
+        "projectUniqueName": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Models/BulkyBook.Models.csproj",
         "projectName": "BulkyBook.Models",
-        "projectPath": "/Users/leventyildirim/RiderProjects/Projects_ASP.NET/BulkyBook.Models/BulkyBook.Models.csproj",
+        "projectPath": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Models/BulkyBook.Models.csproj",
         "packagesPath": "/Users/leventyildirim/.nuget/packages/",
-        "outputPath": "/Users/leventyildirim/RiderProjects/Projects_ASP.NET/BulkyBook.Models/obj/",
+        "outputPath": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Models/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/leventyildirim/.nuget/NuGet/NuGet.Config"
