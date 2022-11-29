@@ -5,12 +5,14 @@ using System.Threading.Tasks;
 using BulkyBook.DataAccess;
 using BulkyBook.DataAccess.Repository.IRepository;
 using BulkyBook.Models;
+using BulkyBook.Utility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BulkyBookWeb.Controllers
 {
     [Area("Admin")]
-
+    [Authorize(Roles = SD.Role_Admin)]
     public class CoverTypeController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -54,15 +56,14 @@ namespace BulkyBookWeb.Controllers
             {
                 return NotFound();
             }
+            var CoverTypeFromDbFirst = _unitOfWork.CoverType.GetFirstOrDefault(u => u.Id == id);
 
-            var coverTypeFromDbFirst = _unitOfWork.CoverType.GetFirstOrDefault(u => u.Id == id);
-
-            if (coverTypeFromDbFirst == null)
+            if (CoverTypeFromDbFirst == null)
             {
                 return NotFound();
             }
 
-            return View(coverTypeFromDbFirst);
+            return View(CoverTypeFromDbFirst);
         }
 
         //POST
@@ -70,6 +71,7 @@ namespace BulkyBookWeb.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Edit(CoverType obj)
         {
+
             if (ModelState.IsValid)
             {
                 _unitOfWork.CoverType.Update(obj);
@@ -80,27 +82,24 @@ namespace BulkyBookWeb.Controllers
             return View(obj);
         }
 
-
-        //GET
         public IActionResult Delete(int? id)
         {
             if (id == null || id == 0)
             {
                 return NotFound();
             }
+            var CoverTypeFromDbFirst = _unitOfWork.CoverType.GetFirstOrDefault(u => u.Id == id);
 
-            var coverTypeFromDbFirst = _unitOfWork.CoverType.GetFirstOrDefault(u => u.Id == id);
-
-            if (coverTypeFromDbFirst == null)
+            if (CoverTypeFromDbFirst == null)
             {
                 return NotFound();
             }
 
-            return View(coverTypeFromDbFirst);
+            return View(CoverTypeFromDbFirst);
         }
 
         //POST
-        [HttpPost,ActionName("Delete")]
+        [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public IActionResult DeletePOST(int? id)
         {
@@ -114,6 +113,7 @@ namespace BulkyBookWeb.Controllers
             _unitOfWork.Save();
             TempData["success"] = "CoverType deleted successfully";
             return RedirectToAction("Index");
+
         }
     }
 }

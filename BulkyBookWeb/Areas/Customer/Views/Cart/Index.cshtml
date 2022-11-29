@@ -17,7 +17,6 @@
             </div>
 
             <div class="card-body">
-
                 @foreach (var item in Model.ListCart)
                 {
                     <div class="row">
@@ -26,39 +25,42 @@
                         </div>
                         <div class="col-12 col-lg-6 pt-md-3">
                             <h5><strong>@item.Product.Title</strong></h5>
-                            <p><small>@Html.Raw(@item.Product.Description)</small></p>
+                            <p><small>@Html.Raw(item.Product.Description)</small></p>
                         </div>
                         <div class="col-12  col-lg-5 text-center row">
                             <div class="col-4 text-md-right pt-4">
-                                <h6><strong>@item.Price.ToString("c")
-                                        <span class="text-muted">&nbsp; x &nbsp; </span>@item.Count </strong></h6>
-                            </div>
-                            <div class="col-6 col-sm-4 col-lg-6 pt-2">
-                                <div class="w-75 btn-group" role="group">
-                                    <a asp-action="plus" asp-route-cartId="@item.Id" class="btn btn-primary">
-                                        <i class="bi bi-plus-square"></i>
-                                    </a> &nbsp;
-                                    <a asp-action="minus" asp-route-cartId="@item.Id" class="btn btn-warning">
-                                        <i class="bi bi-dash-square"></i>
-                                    </a>
-                                </div>
-
-                            </div>
-                            <div class="col-2 col-sm-4 col-lg-2 text-right pt-2">
-                                <a asp-action="remove" asp-route-cartId="@item.Id" class="btn btn-danger">
-                                    <i class="bi bi-trash-fill"></i>
+                                <h6>
+                                    <strong>
+                                        @item.Price.ToString("c")
+                                    <span class="text-muted">&nbsp;x&nbsp;</span>@item.Count
+                                </strong>
+                            </h6>
+                        </div>
+                        <div class="col-6 col-sm-4 col-lg-6 pt-2">
+                            <div class="w-75 btn-group" role="group">
+                                <a asp-action="plus" asp-route-cartId="@item.Id" class="btn btn-primary">
+                                    <i class="bi bi-plus-square"></i>
+                                </a> &nbsp;
+                                <a asp-action="minus" asp-route-cartId="@item.Id" class="btn btn-warning">
+                                    <i class="bi bi-dash-square"></i>
                                 </a>
                             </div>
+
+                        </div>
+                        <div class="col-2 col-sm-4 col-lg-2 text-right pt-2">
+                            <a asp-action="remove" asp-route-cartId="@item.Id" class="btn btn-danger">
+                                <i class="bi bi-trash-fill"></i>
+                            </a>
                         </div>
                     </div>
-                    <hr />
-                }
-
+                </div>
+                <hr />
+            }
                 <div class="row">
                     <div class="col-12 col-md-6 offset-md-6 col-lg-4 offset-lg-8 pr-4">
                         <ul class="list-group">
                             <li class="list-group-item d-flex justify-content-between bg-light">
-                                <span class="text-info"> Total (SEK)</span>
+                                <span class="text-info"> Total (USD)</span>
                                 <strong class="text-info">@Model.OrderHeader.OrderTotal.ToString("c")</strong>
                             </li>
                         </ul>
@@ -67,13 +69,13 @@
 
             </div>
 
-                <div class="card-footer">
-                    <div class="card-footer row">
-                        <div class="col-sm-12 col-lg-4 col-md-6 offset-lg-8 offset-md-6 ">
-                            <a asp-action="Summary" class="btn btn-success form-control">Summary</a>
-                        </div>
+            <div class="card-footer">
+                <div class="card-footer row">
+                    <div class="col-sm-12 col-lg-4 col-md-6 offset-lg-8 offset-md-6 ">
+                        <a asp-action="Summary" class="btn btn-success form-control">Summary</a>
                     </div>
                 </div>
             </div>
         </div>
-    </form>
+    </div>
+</form>

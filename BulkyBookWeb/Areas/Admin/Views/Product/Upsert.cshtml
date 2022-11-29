@@ -8,7 +8,7 @@
         <div class="col-10">
             <div class="border p-3 mt-4 row">
                 <div class="col-12 pb-2">
-                    <h2 class="text-primary">@(Model.Product.Id!=0?"Update":"Create") Product</h2>
+                    <h2 class="text-primary">@(Model.Product.Id!=0?"Update": "Create")  Product</h2>
                     <hr />
                 </div>
                 @*<div asp-validation-summary="All"></div>*@
@@ -56,21 +56,22 @@
                     <label asp-for="Product.ImageUrl"></label>
                     <input type="file" id="uploadBox" name="file" class="form-control" />
                 </div>
+
                 <div class="mb-3 col-6">
-                    <label asp-for="Product.Category"></label>
+                    <label asp-for="Product.CategoryId"></label>
                     <select asp-for="Product.CategoryId" asp-items="@Model.CategoryList" class="form-select">
                         <option disabled selected>--Select Category--</option>
                     </select>
                     <span asp-validation-for="Product.CategoryId" class="text-danger"></span>
                 </div>
+
                 <div class="mb-3 col-6">
-                    <label asp-for="Product.CoverType"></label>
+                    <label asp-for="Product.CoverTypeId"></label>
                     <select asp-for="Product.CoverTypeId" asp-items="@Model.CoverTypeList" class="form-select">
-                        <option disabled selected>--Select Cover Type--</option>
+                        <option disabled selected>--Select CoverType--</option>
                     </select>
                     <span asp-validation-for="Product.CoverTypeId" class="text-danger"></span>
                 </div>
-
                 <div class="col-12">
                     @if (Model.Product.Id != 0)
                     {
@@ -80,16 +81,23 @@
                     {
                         <button type="submit" onclick="return ValidateInput()" class="btn btn-primary" style="width:150px">Create</button>
                     }
-
-                    <a asp-controller="Product" asp-action="Index" class="btn btn-secondary" style="width:150px">Back to List</a>
+                    <a asp-controller="Product" asp-action="Index" class="btn btn-secondary" style="width:150px">
+                        Back to List
+                    </a>
                 </div>
+
             </div>
         </div>
         <div class="col-2 pt-4">
             <img src="@Model.Product.ImageUrl"
-                 width="100%" style="border-radius:5px; border:1px solid #bbb9b9"/>
+                 width="100%" style="border-radius:5px; border:1px solid #bbb9b9" />
         </div>
     </div>
+
+
+
+
+
 
 
 </form>
@@ -98,32 +106,21 @@
     @{
         <partial name="_ValidationScriptsPartial" />
     }
-    <script>
-
-        tinymce.init({
+    <script>tinymce.init({
             selector: 'textarea',
-            plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount checklist mediaembed casechange export formatpainter pageembed linkchecker a11ychecker tinymcespellchecker permanentpen powerpaste advtable advcode editimage tinycomments tableofcontents footnotes mergetags autocorrect',
-            toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table mergetags | addcomment showcomments | spellcheckdialog a11ycheck | align lineheight | checklist numlist bullist indent outdent | emoticons charmap | removeformat',
-            tinycomments_mode: 'embedded',
-            tinycomments_author: 'Author name',
-            mergetags_list: [
-                { value: 'First.Name', title: 'First Name' },
-                { value: 'Email', title: 'Email' },
-            ]
+            plugins: 'advlist autolink lists link image charmap print preview hr anchor pagebreak',
+            toolbar_mode: 'floating',
         });
-
-
 
         function ValidateInput() {
             if (document.getElementById("uploadBox").value == "") {
                 Swal.fire({
                     icon: 'error',
                     title: 'Oops...',
-                    text: 'Please upload an image!'
+                    text: 'Please upload an Image!',
                 });
                 return false;
             }
             return true;
-        }
-    </script>
+        }</script>
 }

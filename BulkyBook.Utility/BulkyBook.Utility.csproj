@@ -8,8 +8,12 @@
 
   <ItemGroup>
     <None Remove="Microsoft.AspNetCore.Identity.UI" />
+    <None Remove="MailKit" />
+    <None Remove="MimeKit" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.10" />
+    <PackageReference Include="MailKit" Version="2.15.0" />
+    <PackageReference Include="MimeKit" Version="2.15.1" />
   </ItemGroup>
 </Project>
