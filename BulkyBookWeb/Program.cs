@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Identity;
 using BulkyBook.Utility;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Stripe;
+using BulkyBook.DataAccess.DbInitializer;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,9 +25,14 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IDbInitializer, DbInitializer>();
 //builder.Services.AddSingleton<IEmailSender, EmailSender>();
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
-
+builder.Services.AddAuthentication().AddGoogle(options =>
+{
+    options.ClientId = "77875223303-b3skogjvt6mcl7drrg1p2krsamkf5d86.apps.googleusercontent.com";
+    options.ClientSecret = "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";
+});
 builder.Services.ConfigureApplicationCookie(options =>
 {
     options.LoginPath = $"/Identity/Account/Login";
@@ -59,6 +65,8 @@ app.UseRouting();
 
 StripeConfiguration.ApiKey = builder.Configuration.GetSection("Stripe:SecretKey").Get<string>();
 
+SeedDatabase();
+
 app.UseAuthentication();;
 
 app.UseAuthorization();
@@ -72,3 +80,11 @@ app.MapControllerRoute(
 
 app.Run();
 
+void SeedDatabase()
+{
+    using (var scope = app.Services.CreateScope())
+    {
+        var dbInitializer = scope.ServiceProvider.GetRequiredService<IDbInitializer>();
+        dbInitializer.Initialize();
+    }
+}

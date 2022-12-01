@@ -17,14 +17,17 @@
     <None Remove="Repository\" />
     <None Remove="Repository\IRepository\" />
     <None Remove="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+    <None Remove="DbInitializer\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="Repository\" />
     <Folder Include="Repository\IRepository\" />
+    <Folder Include="DbInitializer\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BulkyBook.Models\BulkyBook.Models.csproj" />
+    <ProjectReference Include="..\BulkyBook.Utility\BulkyBook.Utility.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.10" />

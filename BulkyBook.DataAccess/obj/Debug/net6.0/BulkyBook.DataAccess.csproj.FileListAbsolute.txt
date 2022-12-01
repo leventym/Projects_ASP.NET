@@ -32,3 +32,5 @@
 /Users/leventyildirim/Documents/Projects/Coding_Projects/Projects_ASP.NET/BulkyBook.DataAccess/obj/Debug/net6.0/BulkyBook.DataAccess.pdb
 /Users/leventyildirim/Documents/Projects/Coding_Projects/Projects_ASP.NET/BulkyBook.DataAccess/obj/Debug/net6.0/BulkyBook.DataAccess.genruntimeconfig.cache
 /Users/leventyildirim/Documents/Projects/Coding_Projects/Projects_ASP.NET/BulkyBook.DataAccess/obj/Debug/net6.0/ref/BulkyBook.DataAccess.dll
+/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/bin/Debug/net6.0/BulkyBook.Utility.dll
+/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/bin/Debug/net6.0/BulkyBook.Utility.pdb
