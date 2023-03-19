@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/AbbyWeb/AbbyWeb.csproj": {}
+    "/Users/leventyildirim/Library/Mobile Documents/com~apple~CloudDocs/Developer/Coding Projects/CSharp-projects/Projects_ASP.NET/AbbyWeb/AbbyWeb.csproj": {}
   },
   "projects": {
-    "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/AbbyWeb/AbbyWeb.csproj": {
+    "/Users/leventyildirim/Library/Mobile Documents/com~apple~CloudDocs/Developer/Coding Projects/CSharp-projects/Projects_ASP.NET/AbbyWeb/AbbyWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/AbbyWeb/AbbyWeb.csproj",
+        "projectUniqueName": "/Users/leventyildirim/Library/Mobile Documents/com~apple~CloudDocs/Developer/Coding Projects/CSharp-projects/Projects_ASP.NET/AbbyWeb/AbbyWeb.csproj",
         "projectName": "AbbyWeb",
-        "projectPath": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/AbbyWeb/AbbyWeb.csproj",
+        "projectPath": "/Users/leventyildirim/Library/Mobile Documents/com~apple~CloudDocs/Developer/Coding Projects/CSharp-projects/Projects_ASP.NET/AbbyWeb/AbbyWeb.csproj",
         "packagesPath": "/Users/leventyildirim/.nuget/packages/",
-        "outputPath": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/AbbyWeb/obj/",
+        "outputPath": "/Users/leventyildirim/Library/Mobile Documents/com~apple~CloudDocs/Developer/Coding Projects/CSharp-projects/Projects_ASP.NET/AbbyWeb/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/leventyildirim/.nuget/NuGet/NuGet.Config"
@@ -77,8 +77,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -90,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }
