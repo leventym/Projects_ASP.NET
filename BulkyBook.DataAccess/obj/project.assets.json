@@ -8504,11 +8504,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/leventyildirim/Library/Mobile Documents/com~apple~CloudDocs/Developer/Coding Projects/CSharp-projects/Projects_ASP.NET/BulkyBook.DataAccess/BulkyBook.DataAccess.csproj",
+      "projectUniqueName": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/BulkyBook.DataAccess.csproj",
       "projectName": "BulkyBook.DataAccess",
-      "projectPath": "/Users/leventyildirim/Library/Mobile Documents/com~apple~CloudDocs/Developer/Coding Projects/CSharp-projects/Projects_ASP.NET/BulkyBook.DataAccess/BulkyBook.DataAccess.csproj",
+      "projectPath": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/BulkyBook.DataAccess.csproj",
       "packagesPath": "/Users/leventyildirim/.nuget/packages/",
-      "outputPath": "/Users/leventyildirim/Library/Mobile Documents/com~apple~CloudDocs/Developer/Coding Projects/CSharp-projects/Projects_ASP.NET/BulkyBook.DataAccess/obj/",
+      "outputPath": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/leventyildirim/.nuget/NuGet/NuGet.Config"
@@ -8524,11 +8524,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/leventyildirim/Library/Mobile Documents/com~apple~CloudDocs/Developer/Coding Projects/CSharp-projects/Projects_ASP.NET/BulkyBook.Models/BulkyBook.Models.csproj": {
-              "projectPath": "/Users/leventyildirim/Library/Mobile Documents/com~apple~CloudDocs/Developer/Coding Projects/CSharp-projects/Projects_ASP.NET/BulkyBook.Models/BulkyBook.Models.csproj"
+            "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Models/BulkyBook.Models.csproj": {
+              "projectPath": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Models/BulkyBook.Models.csproj"
             },
-            "/Users/leventyildirim/Library/Mobile Documents/com~apple~CloudDocs/Developer/Coding Projects/CSharp-projects/Projects_ASP.NET/BulkyBook.Utility/BulkyBook.Utility.csproj": {
-              "projectPath": "/Users/leventyildirim/Library/Mobile Documents/com~apple~CloudDocs/Developer/Coding Projects/CSharp-projects/Projects_ASP.NET/BulkyBook.Utility/BulkyBook.Utility.csproj"
+            "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Utility/BulkyBook.Utility.csproj": {
+              "projectPath": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Utility/BulkyBook.Utility.csproj"
             }
           }
         }
@@ -8584,7 +8584,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+>>>>>>> parent of 64ac124 (updated .net and created new project)
       }
     }
   }

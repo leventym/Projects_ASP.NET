@@ -1296,11 +1296,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/leventyildirim/Library/Mobile Documents/com~apple~CloudDocs/Developer/Coding Projects/CSharp-projects/Projects_ASP.NET/BulkyBook.Utility/BulkyBook.Utility.csproj",
+      "projectUniqueName": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Utility/BulkyBook.Utility.csproj",
       "projectName": "BulkyBook.Utility",
-      "projectPath": "/Users/leventyildirim/Library/Mobile Documents/com~apple~CloudDocs/Developer/Coding Projects/CSharp-projects/Projects_ASP.NET/BulkyBook.Utility/BulkyBook.Utility.csproj",
+      "projectPath": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Utility/BulkyBook.Utility.csproj",
       "packagesPath": "/Users/leventyildirim/.nuget/packages/",
-      "outputPath": "/Users/leventyildirim/Library/Mobile Documents/com~apple~CloudDocs/Developer/Coding Projects/CSharp-projects/Projects_ASP.NET/BulkyBook.Utility/obj/",
+      "outputPath": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Utility/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/leventyildirim/.nuget/NuGet/NuGet.Config"
@@ -1357,7 +1357,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+>>>>>>> parent of 64ac124 (updated .net and created new project)
       }
     }
   }
