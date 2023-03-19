@@ -45,17 +45,6 @@ Global
 		{6AD83EA9-F5BC-4BB2-B7C4-09A142C7323C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AD83EA9-F5BC-4BB2-B7C4-09A142C7323C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AD83EA9-F5BC-4BB2-B7C4-09A142C7323C}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
-		{69D088AF-E492-4CC0-B52F-87B44CB21F33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{69D088AF-E492-4CC0-B52F-87B44CB21F33}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{69D088AF-E492-4CC0-B52F-87B44CB21F33}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{69D088AF-E492-4CC0-B52F-87B44CB21F33}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7C33AD04-B353-4B8F-975F-398A1A45059D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7C33AD04-B353-4B8F-975F-398A1A45059D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7C33AD04-B353-4B8F-975F-398A1A45059D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7C33AD04-B353-4B8F-975F-398A1A45059D}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
->>>>>>> parent of 64ac124 (updated .net and created new project)
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
