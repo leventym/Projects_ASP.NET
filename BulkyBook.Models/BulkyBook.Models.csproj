@@ -6,6 +6,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' " />
   <ItemGroup>
     <None Remove="ViewModels\" />
     <None Remove="Microsoft.AspNetCore.Mvc.ViewFeatures" />

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U+DMMRMVGFcVA25qi14hEO+wBziUEcxeRU2cTiMust7eCjBDT0tv4q16Q0q1OQOKq9gSKMFd+0B3mvlXtS4dww==",
+  "dgSpecHash": "1wWsx3e3naww7unK7AiYs1cwlKz89RS7yvg9jf9mdvU2BjyJB2utt2zdf5PNhvF9RuDEqNFKF5240novp1vnPQ==",
   "success": true,
-  "projectFilePath": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Models/BulkyBook.Models.csproj",
+  "projectFilePath": "/Users/leventyildirim/Library/Mobile Documents/com~apple~CloudDocs/Developer/Coding Projects/CSharp-projects/Projects_ASP.NET/BulkyBook.Models/BulkyBook.Models.csproj",
   "expectedPackageFiles": [
     "/Users/leventyildirim/.nuget/packages/microsoft.aspnetcore.antiforgery/2.2.0/microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "/Users/leventyildirim/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
@@ -137,12 +137,5 @@
     "/Users/leventyildirim/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/Users/leventyildirim/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file /Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Models/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

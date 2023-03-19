@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fzgWT8oVwYMhwIyH5p0Brlaub+L9qAEhv5aX423NDTt4thyG10aDnVpM0Vs5EHmKR0eE6RwD6tQzQVqjhNsMLQ==",
+  "dgSpecHash": "ftSpJrjsKKCMvlHW9WL+2gFFDz/rqGgS/Q+lisDSky/20MuTswFZX90Zgz7GxM2JF8FB3NKjlCw4p+cMh6ROPA==",
   "success": true,
-  "projectFilePath": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.DataAccess/BulkyBook.DataAccess.csproj",
+  "projectFilePath": "/Users/leventyildirim/Library/Mobile Documents/com~apple~CloudDocs/Developer/Coding Projects/CSharp-projects/Projects_ASP.NET/BulkyBook.DataAccess/BulkyBook.DataAccess.csproj",
   "expectedPackageFiles": [
     "/Users/leventyildirim/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/leventyildirim/.nuget/packages/mailkit/2.15.0/mailkit.2.15.0.nupkg.sha512",

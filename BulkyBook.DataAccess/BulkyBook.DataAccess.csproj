@@ -26,8 +26,12 @@
     <Folder Include="DbInitializer\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BulkyBook.Models\BulkyBook.Models.csproj" />
-    <ProjectReference Include="..\BulkyBook.Utility\BulkyBook.Utility.csproj" />
+    <ProjectReference Include="..\BulkyBook.Models\BulkyBook.Models.csproj">
+      <ReferenceSourceTarget></ReferenceSourceTarget>
+    </ProjectReference>
+    <ProjectReference Include="..\BulkyBook.Utility\BulkyBook.Utility.csproj">
+      <ReferenceSourceTarget></ReferenceSourceTarget>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.10" />
