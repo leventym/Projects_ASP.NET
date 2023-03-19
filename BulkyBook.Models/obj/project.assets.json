@@ -6893,11 +6893,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/leventyildirim/Library/Mobile Documents/com~apple~CloudDocs/Developer/Coding Projects/CSharp-projects/Projects_ASP.NET/BulkyBook.Models/BulkyBook.Models.csproj",
+      "projectUniqueName": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Models/BulkyBook.Models.csproj",
       "projectName": "BulkyBook.Models",
-      "projectPath": "/Users/leventyildirim/Library/Mobile Documents/com~apple~CloudDocs/Developer/Coding Projects/CSharp-projects/Projects_ASP.NET/BulkyBook.Models/BulkyBook.Models.csproj",
+      "projectPath": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Models/BulkyBook.Models.csproj",
       "packagesPath": "/Users/leventyildirim/.nuget/packages/",
-      "outputPath": "/Users/leventyildirim/Library/Mobile Documents/com~apple~CloudDocs/Developer/Coding Projects/CSharp-projects/Projects_ASP.NET/BulkyBook.Models/obj/",
+      "outputPath": "/Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Models/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/leventyildirim/.nuget/NuGet/NuGet.Config"
@@ -6939,7 +6939,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -6948,8 +6949,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /Users/leventyildirim/Documents/Projects/Coding Projects/Projects_ASP.NET/BulkyBook.Models/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
